@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   im_stepper: ^0.1.2+8
+  get: ^3.0.0
 
 dev_dependencies:
   flutter_test:
