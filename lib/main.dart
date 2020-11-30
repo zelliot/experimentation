@@ -15,10 +15,10 @@ class DotStepperDemo extends StatefulWidget {
 class _DotStepperDemo extends State<DotStepperDemo> {
   // MUST DEFINE THE FOLLOWING THREE VARIABLES.
   // activeStep must be Set to 1 and NOT to 0
-  int activeStep = 0;
+  int activeStep = 1;
 
-  int lowerBound = 0;
-  int upperBound = 0;
+  int lowerBound = 1;
+  int upperBound = 5;
 
   @override
   Widget build(BuildContext context) {
